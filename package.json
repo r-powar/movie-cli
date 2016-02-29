@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "movie": "index.js"
+  },
   "author": "Raj Powar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "chalk": "^1.1.1",
+    "progress": "^1.1.8",
+    "request": "^2.69.0"
+  }
 }
